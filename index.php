@@ -47,6 +47,7 @@ require_once(__DIR__ . '/stanza.php');
       <li>Created at: <?php echo $room_data['created_at'] ?></li>
       <li>Updated at: <?php echo $room_data['updated_at'] ?></li>
     </ul>
+    
     <?php
     };
     ?>

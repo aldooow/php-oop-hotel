@@ -11,12 +11,12 @@ class Stanza {
 
   protected $updated_at;
 
-  public function __construct($room_number, $floor, $beds, $created_at, $updated_at){
-    $this->room_number = $room_number;
-    $this->floor = $floor;
-    $this->beds = $beds;
-    $this->created_at = $created_at;
-    $this->updated_at = $updated_at;
+  public function __construct($_room_number, $_floor, $_beds, $_created_at, $_updated_at){
+    $this->room_number = $_room_number;
+    $this->floor = $_floor;
+    $this->beds = $_beds;
+    $this->created_at = $_created_at;
+    $this->updated_at = $_updated_at;
   }
 
   public function getData(){
